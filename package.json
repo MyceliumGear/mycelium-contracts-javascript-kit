@@ -1,0 +1,32 @@
+{
+  "name": "mycelium-contracts-javascript-kit",
+  "description": "Mycelium Contracts Javascript Kit",
+  "author": "Mycelium",
+  "version": "0.1.0",
+  "license": "MIT",
+  "keywords": [
+    "bitcoin",
+    "multisig",
+    "wallet",
+    "client"
+  ],
+  "engine": "node >= 0.12.0",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:MyceliumGear/mycelium-contracts-javascript-kit.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/MyceliumGear/mycelium-contracts-javascript-kit/issues"
+  },
+  "dependencies": {
+    "bitcore-lib": "latest",
+    "json-loader": "latest"
+  },
+  "devDependencies": {
+    "webpack": "latest"
+  },
+  "scripts": {
+    "webpack": "webpack"
+  }
+}
