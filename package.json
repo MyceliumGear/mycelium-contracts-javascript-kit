@@ -20,11 +20,21 @@
     "url": "https://github.com/MyceliumGear/mycelium-contracts-javascript-kit/issues"
   },
   "dependencies": {
-    "bitcore-lib": "latest",
-    "json-loader": "latest"
+    "aes-js": "^0.2.1",
+    "base64-js": "0.0.8",
+    "bitcore-ecies": "^1.0.1",
+    "bitcore-lib": "^0.13.10",
+    "bitcore-mnemonic": "^1.0.1",
+    "bufferutil": "^1.2.1",
+    "crypto-browserify": "^3.11.0",
+    "diffie-hellman": "3.0.0",
+    "json-loader": "^0.5.4",
+    "lodash": "^4.6.0",
+    "scrypt-async": "^1.2.0",
+    "utf-8-validate": "^1.2.1"
   },
   "devDependencies": {
-    "webpack": "latest"
+    "webpack": "^1.13.2"
   },
   "scripts": {
     "webpack": "webpack"
