@@ -6,9 +6,14 @@ module.exports = {
 		path: path.join(__dirname, 'build'),
 		filename : 'je.js'
 	},
-	module: {
-    loaders: [
-      {test: /\.json$/, loader: "json-loader"}
-    ]
-  },	
+    resolve : {
+        extensions : ['', '.js', '.jsx'],
+        alias      : {crypto: require.resolve('crypto-browserify'),
+                  "diffie-hellman": require.resolve('diffie-hellman/browser')}
+       },
+    module: {
+       loaders: [
+          {test: /\.json$/, loader: "json-loader"}
+       ]
+   }
 };
