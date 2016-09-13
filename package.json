@@ -31,7 +31,8 @@
     "json-loader": "^0.5.4",
     "lodash": "^4.6.0",
     "scrypt-async": "^1.2.0",
-    "utf-8-validate": "^1.2.1"
+    "utf-8-validate": "^1.2.1",
+    "browser-request" : "^0.3.3"
   },
   "devDependencies": {
     "webpack": "^1.13.2"
