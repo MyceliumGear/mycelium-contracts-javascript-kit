@@ -1,15 +1,5 @@
-var Client = require('./lib');
+var MyceliumContracts = require('./lib');
 
-module.exports = Client;
+module.exports = MyceliumContracts;
 
-// Grab an existing namespace object, or create a blank object
-// if it doesn't exist
-var Mycelium = window.Mycelium || {};
-
-// Stick on the modules that need to be exported.
-// You only need to require the top-level modules, browserify
-// will walk the dependency graph and load everything correctly
-Mycelium.MyceliumContracts = Client;
-
-// Replace/Create the global namespace
-window.Mycelium = Mycelium;
+window.MyceliumContracts = MyceliumContracts;
