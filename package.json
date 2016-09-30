@@ -1,0 +1,79 @@
+{
+  "name": "mycelium-contracts-javascript-kit",
+  "description": "Mycelium Contracts Javascript Kit",
+  "author": "Mycelium",
+  "version": "0.1.0",
+  "license": "MIT",
+  "keywords": [
+    "bitcoin",
+    "multisig",
+    "wallet",
+    "client"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "lint": "eslint ./src/**/*.js",
+    "lint:tests": "eslint ./tests/**/*.spec.js",
+    "compile": "webpack",    
+    "test": "node ./node_modules/karma/bin/karma start",
+    "test:dev": "npm run test -- --watch",
+    "deploy": "npm run lint && npm run test && npm run compile"
+  },  
+  "engine": "node >= 0.12.0",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:MyceliumGear/mycelium-contracts-javascript-kit.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/MyceliumGear/mycelium-contracts-javascript-kit/issues"
+  },
+  "dependencies": {
+    "aes-js": "^0.2.1",
+    "base64-js": "0.0.8",
+    "bitcore-ecies": "^1.0.1",
+    "bitcore-lib": "^0.13.10",
+    "bitcore-mnemonic": "^1.0.1",
+    "bufferutil": "^1.2.1",
+    "crypto-browserify": "^3.11.0",
+    "diffie-hellman": "3.0.0",
+    "json-loader": "^0.5.4",
+    "lodash": "^4.6.0",
+    "scrypt-async": "^1.2.0",
+    "utf-8-validate": "^1.2.1",
+    "browser-request" : "^0.3.3"
+  },
+  "devDependencies": {
+  "autoprefixer": "^6.1.0",
+    "chai-as-promised": "^5.1.0",
+    "css-loader": "^0.21.0",
+    "eslint": "^1.0.0",
+    "eslint-config-airbnb": "0.1.0",
+    "eslint-plugin-react": "^3.3.1",
+    "extract-text-webpack-plugin": "^0.8.0",
+    "file-loader": "^0.8.4",
+    "html-webpack-plugin": "^1.6.1",
+    "isparta-loader": "^1.0.0",
+    "karma": "^0.13.8",
+    "karma-chai": "^0.1.0",
+    "karma-chai-as-promised": "^0.1.2",
+    "karma-coverage": "^0.5.0",
+    "karma-mocha": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "chai": "^3.5.0",
+    "lolex": "^1.4.0",
+    "sinon": "^2.0.0-pre.3",
+    "sinon-chai": "^2.8.0",
+    "karma-sinon-chai": "^1.2.4",
+    "karma-spec-reporter": "0.0.21",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.2.5",
+    "node-sass": "^3.3.3",
+    "phantomjs": "^2.1.7",
+    "phantomjs-polyfill": "0.0.1",
+    "sass-loader": "^3.0.0",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.13.2"
+  }
+}
