@@ -1,0 +1,55 @@
+You can index files remotely using SSH.
+
+Here is a list of SSH settings (under server. prefix)`:
+
+Name	Default value	Documentation
+server.hostname	null	Hostname
+server.port	22	Port
+server.username	null	Username / Password
+server.password	null	Username / Password
+server.protocol	"local"	Set it to ssh
+server.pem_path	null	Using Username / PEM file
+Username / Password
+Let’s say you want to index from a remote server using SSH:
+
+FS URL: /path/to/data/dir/on/server
+Server: mynode.mydomain.com
+Username: username
+Password: password
+Protocol: ssh (default to local)
+Port: 22 (default to 22)
+{
+  "name" : "test",
+  "fs" : {
+    "url" : "/path/to/data/dir/on/server"
+  },
+  "server" : {
+    "hostname" : "mynode.mydomain.com",
+    "port" : 22,
+    "username" : "username",
+    "password" : "password",
+    "protocol" : "ssh"
+  }
+}
+Using Username / PEM file
+Let’s say you want to index from a remote server using SSH:
+
+FS URL: /path/to/data/dir/on/server
+Server: mynode.mydomain.com
+Username: username
+PEM File: /path/to/private_key.pem
+Protocol: ssh (default to local)
+Port: 22 (default to 22)
+{
+  "name" : "test",
+  "fs" : {
+    "url" : "/path/to/data/dir/on/server"
+  },
+  "server" : {
+    "hostname" : "mynode.mydomain.com",
+    "port" : 22,
+    "username" : "username",
+    "protocol" : "ssh",
+    "pem_path": "/path/to/private_key.pem"
+  }
+}
