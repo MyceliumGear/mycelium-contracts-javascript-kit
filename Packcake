@@ -1,0 +1,645 @@
+Pancake Logo Pancake
+
+Commands
+
+p!addbalance
+
+- For the admins to give balance to a user.
+
+p!balance
+
+- Shows you your balance.
+
+p!blackjack
+
+- Use your balance to play blackjack with.
+
+p!buy
+
+- To buy items from the servers store and global store.
+
+p!claimrewards
+
+- You can get a free 250 balance in your server by upvoting at https://top.gg/bot/pancake
+
+p!daily
+
+- Gives you 500 balance. Can only be used once per day.
+
+p!deposit
+
+- Deposits your balance into Pancorp Bank.
+
+p!fish
+
+- A game where you catch fish and sell them. You must buy a fishing rod to use this command. __**Catches**__ :newspaper2:, :duck:, :coconut:, :bikini:, :socks: - Trash Items - 45% chance :fish:, :shrimp:, :pancakes:, :crab:, :squid:, :lobster: - Common Items - 43% chance :blowfish:, :tropical_fish:, :shark:, :octopus:, :dolphin:, :whale2: - Uncommon Items - 11% chance :gem: - Rare Item - 1% chance __**Rarity**__ Common - 70% Uncommon - 20% Rare - 9% Ultra Rare - 1%
+
+p!give
+
+- Gives your balance to another user.
+
+p!giveitem
+
+- Give an item you have to another user.
+
+p!highlow
+
+- A guessing game if the next number is higher or lower than a given number. If you guess right you get `15 pancakes`. Cooldown of `30 seconds` as default.
+
+p!inventory
+
+- This is where most items you get go.
+
+p!iteminfo
+
+- Gets you information of an item in the your inventory or server store.
+
+p!leaderboard
+
+- Shows a server-wide leaderboard for networth.
+
+p!lottery
+
+- A game that you join and the winner gets the pot prize. To setup, use the `lotterysetup` command.
+
+p!removebalance
+
+- For the admins to take balance to a user.
+
+p!resetbalance
+
+- To reset a users amount of balance.
+
+p!rob
+
+- Rob a user and take their money from them. Success rate is `40%` and cooldown of `3 hours` as default. If the user has more than the min amount, the punishment is 5% of users balance
+
+p!russianroulette
+
+- A game of chance everyone can join and theres 6 bullets in the chamber.
+
+p!sell
+
+- To sell items that you have in your inventory.
+
+p!shop
+
+- You can buy items with money using this command. To setup the shop, use the `itemsetup add` command To view the global shop, do `shop -g`
+
+p!slots
+
+- Play a game of slots.
+
+p!trivia
+
+- A fun way to earn money. Levels of easy (100), medium (250), and hard (500). Cooldown of `10 minutes` as default.
+
+p!use
+
+- To use an item you recieve or bought.
+
+p!withdraw
+
+- Take money out of Pancorp Bank.
+
+p!work
+
+- A simple way to earn some money. Failrate of `10%` and cooldown of `5 minutes` as default.
+
+p!8ball
+
+- Reaches into the future to find the answer to your question.
+
+p!akinator
+
+- Play a game with the famous Akinator!
+
+p!bigtext
+
+- Makes the specified text bigger.
+
+p!coinflip
+
+- Flip a coin.
+
+p!embed
+
+- Put text that you specify inside an embed.
+
+p!fml
+
+- Gets a random quote from fmylife.com
+
+p!higherlower
+
+- A fun game guessing if something has more or less search results than another
+
+p!roast
+
+- Sends a random roast to someone.
+
+p!say
+
+- Make the bot say whatever you want. **__Note:__** You can make the bot delete your message by doing --silent at the end of your message
+
+p!ship
+
+- Ship two people together.
+
+p!xkcd
+
+- Show a comic from XKCD.com. Shows the most recent comic if no arguments specified.
+
+p!beautiful
+
+- Oh this- this is beautiful.
+
+p!birb
+
+- Shows a random birb.
+
+p!byemom
+
+- Generates a byemom meme.
+
+p!cat
+
+- Shows a random cat from random.cat
+
+p!meme
+
+- Shows a dank reddit meme.
+
+p!dog
+
+- Shows a random cat from random.cat
+
+p!f
+
+- Press F to pay respects.
+
+p!facts
+
+- The book of facts!
+
+p!gmagik
+
+- Magik, but in gif form.
+
+p!illegal
+
+- Memes are now illegal.
+
+p!sepia
+
+- Runs a sepia filter on an image.
+
+p!saturate
+
+- Saturates an image.
+
+p!darken
+
+- Darkens an image.
+
+p!brighten
+
+- Brightens an image.
+
+p!invert
+
+- Inverts the pixels of an image.
+
+p!grayscale
+
+- Converts an image to grayscale.
+
+p!implode
+
+- Implodes an image.
+
+p!explode
+
+- Explodes an image.
+
+p!magik
+
+- Makes images look better.
+
+p!present
+
+- Hey, I'm modern art!
+
+p!kiss
+
+- Give someone a big kiss!
+
+p!hug
+
+- Give someone a nice warm hug!
+
+p!slap
+
+- Give someone a slap!
+
+p!cry
+
+- Aww, why are you crying?
+
+p!smile
+
+- Someone looks happy...
+
+p!blush
+
+- Aww, why are you blushing?
+
+p!lewd
+
+- Someone is being lewd...
+
+p!weebsh
+
+- Pulls an image from weeb.sh. Do `p!weebsh types` to view the types.
+
+p!wizard
+
+- Turns someone into a wizard.
+
+p!avatar
+
+- Get a bigger image of a users avatar
+
+p!donate
+
+- Gives you information on Pancake Premium.
+
+p!help
+
+- Provides you with the commands list.
+
+p!invite
+
+- Gives you the URL to invite Pancake.
+
+p!ping
+
+- Shows Pancake's latency to Discord's API.
+
+p!roleinfo
+
+- Gets more information on a role
+
+p!serverinfo
+
+- Shows various information about the current guild.
+
+p!stats
+
+- Shows various Pancake statistics.
+
+p!support
+
+- DMs you the invite to Pancake's support server.
+
+p!userinfo
+
+- Shows various information about you or the specified user.
+
+p!level
+
+- Displays your current level and stats. To enable levels set a channel using the `xpchannel` command.
+
+p!levelcalculator
+
+- A calculator that will give you information about reaching a level.
+
+p!levelleaderboard
+
+- A leaderboard for leveling
+
+p!levelmessages
+
+- Sets the channel to send level up messages. __**Simple Tags:**__ {{user}} - username {{level}} - the new level user reaches {{mention}} - mentions user {{tag}} - username and discriminator {{discriminator}} - users discriminator {{guild}} - guild name {{memberCount}} - the guilds member count
+
+p!levelroles
+
+- Once you hit a level, you can get a role with it There is a `--silent` flag which means the role will remove itself once leveled up.
+
+p!resetlevel
+
+- Resets a user, role, or everyone in the servers levels.
+
+p!userlevelsettings
+
+- To customize your level image. **Donators only**
+
+p!xpchannel
+
+- Sets up the levels, enable a channel where users can get XP
+
+p!xp
+
+- To add or remove XP from everyone, a specific user, or a specific role.
+
+p!ban
+
+- Bans the specified user from the server while clearing their past week of messages.
+
+p!clearinfractions
+
+- Clears all of a user's infractions.
+
+p!duration
+
+- Changes the duration of a mute or ban
+
+p!infractions
+
+- Shows all of a user's past infractions.
+
+p!kick
+
+- Kicks the specified user from the server.
+
+p!mute
+
+- Mutes the specified user with an optional duration.
+
+p!purge
+
+- Purges the specified amount of messages.
+
+p!reason
+
+- Sets a reason for a modlog case.
+
+p!removeinfractions
+
+- Removes the specified infraction.
+
+p!softban
+
+- Softbans the user from the server (ban & unban). Removes a week of messages.
+
+p!unban
+
+- Unbans the specified user ID from the server.
+
+p!unmute
+
+- Unmutes the specified user if they are muted.
+
+p!vckick
+
+- Kicks the specified user from the voice channel.
+
+p!warn
+
+- Gives the specified user a warning.
+
+p!lockdown
+
+- Locks the channel or server from talking in chat. If you want to lock the server you do `lockdown server`
+
+p!channeltoggle
+
+- Toggles usage of commands in the channel. Toggles current channel if not specified.
+
+p!currencysettings
+
+- Customize your currency commands to your likings.
+
+p!customreplies
+
+- Customize your currency commands replies. __**Simple Tags:**__ {{user}} - username {{amount}} - the amount of pancakes {{mention}} - mentions user {{tag}} - username and discriminator {{discriminator}} - users discriminator {{guild}} - guild name {{memberCount}} - the guilds member count
+
+p!deletelog
+
+- Sets the channel where deleted messages are logged.
+
+p!editlog
+
+- Sets the channel where edited messages are logged.
+
+p!farewell
+
+- Sets the channel to send farewell messages. __**Simple Tags:**__ {{user}} - username {{mention}} - mentions user {{tag}} - username and discriminator {{discriminator}} - users discriminator {{guild}} - guild name {{memberCount}} - the guilds member count
+
+p!forceend
+
+- To fix any games that say it's still currently running.
+
+p!greeting
+
+- Sets the channel to send greeting messages. __**Simple Tags:**__ {{user}} - username {{mention}} - mentions user {{tag}} - username and discriminator {{discriminator}} - users discriminator {{guild}} - guild name {{memberCount}} - the guilds member count
+
+p!itemsetup
+
+- You setup the shop using this command. To see all items, use the `shop` command
+
+p!lotterysetup
+
+- To setup the lottery command.
+
+p!modlog
+
+- Sets the channel to log moderation actions.
+
+p!perms
+
+- Assigns permissions.
+
+p!prefix
+
+- Changes Pancake's command prefix. When ran with no args it shows the current prefix.
+
+p!setcurrency
+
+- Set up a custom currency to your liking.
+
+p!togglenowplaying
+
+- A toggle to turn on and off the now playing message.
+
+p!autoplay
+
+- Plays the song you say, then automatically selects relative music to play after. **Donators only**
+
+p!bassboost
+
+- Changes the bass boost level. **Donators only**
+
+p!join
+
+- Makes Pancake join your voice channel.
+
+p!lyrics
+
+- Search a song of your liking and get the lyrics.
+
+p!move
+
+- Move the song you want from the queue around.
+
+p!nowplaying
+
+- Shows the currently playing song.
+
+p!pause
+
+- Pauses the music playback.
+
+p!play
+
+- Plays a song.
+
+p!queue
+
+- Shows the current song queue.
+
+p!remove
+
+- Removes a song from the queue. Accepts song name or queue position.
+
+p!repeat
+
+- Changes the repeat mode of the music player.
+
+p!resume
+
+- Resumes music playback.
+
+p!search
+
+- Searches YouTube then gives a list of songs to choose from.
+
+p!seek
+
+- Seeks through a currently playing song.
+
+p!shuffle
+
+- Shuffles the music queue.
+
+p!skip
+
+- Starts a vote-skip for the current song. Instantly skips if the user queued the song.
+
+p!stop
+
+- Stops the music, clears the queue, and disconnects.
+
+p!volume
+
+- Changes the volume of the music. **Donators only**
+
+p!boobs
+
+- Shows random boobs
+
+p!butts
+
+- Shows random butts
+
+p!gtn
+
+- Shows random GTN comics
+
+p!porngif
+
+- Uses reddit and returns a gif from /r/porngif
+
+p!rule34
+
+- Shows random GTN comics
+
+p!autorole
+
+- Changes the roles members get on join.
+
+p!getrole
+
+- Gives the user the requested role if setup with the `selfrole` command.
+
+p!reactionroles
+
+- Makes a message in your server able for members to press reactions to get roles. **If you are new, use the `setup` argument.** To make it so a user can't remove a role, use the `sticky` flag. To make it so a user can only choose 1 role, use the `onlyone` flag To use sticky roles or onlyone option, at the end of your command add `--sticky` or `--onlyone`.
+
+p!role
+
+- Mass assigns roles to members. The `in` argument is to add or remove roles from users with specified role. When using `in`, use `-` before the last role name to remove the role, leave it blank to add.
+
+p!selfrole
+
+- Manages the roles members can self-assign using the `getrole` command.
+
+p!addtag
+
+- Creates a tag that can be ran.
+
+p!botlist
+
+- Shows a list of bots from Carbonitex, sorted by server count.
+
+p!calc
+
+- Calculates things.
+
+p!choose
+
+- Chooses between a list of items.
+
+p!edittag
+
+- Edits an already made tag.
+
+p!embedcreate
+
+- You can create a whole embed using the bot. There is a lot of info so just go through everything step by step.
+
+p!embededit
+
+- You can edit the embed from Pancake. There is a lot of info so just go through everything step by step.
+
+p!giveaway
+
+- Sets up a giveaway in your server.
+
+p!notifications
+
+- Turns on and off certain commands that gives you notifications. When you turn off notifications, they get sent here. To see them, do this command with no arguments.
+
+p!poll
+
+- Sets up a poll in your server.
+
+p!removetag
+
+- Removes an already made tag.
+
+p!reroll
+
+- Rerolls the giveaway message for a new winner
+
+p!suggest
+
+- Makes a suggestion for Pancake.
+
+p!tag
+
+- Executes a created tag and shows you a list of tags created. You can also access tags like `p!tagName`
+
+p!translate
+
+- Translates between languages.
+
+p!urban
+
+- Shows definitions from Urban Dictionary.
+
+Contact
+Status
+Twitter
+Privacy
+© 2021 Pancake Team
